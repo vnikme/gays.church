@@ -1,0 +1,58 @@
+.btn {
+  font-size: 0.875rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  outline: none;
+  &.btn-info {
+    &:hover {
+      background: transparent;
+      color: #1998ff;
+      border: 1px solid  #1998ff;
+    }
+  }
+  &.btn-dark {
+    &:hover {
+      background: #4d4d4d;
+      color: white;
+      border: 1px solid #4d4d4d;
+      box-sizing: border-box;
+    }
+  }
+  &.btn-light {
+    color: #fc7341; 
+    border: 2px solid transparent;
+    &:hover {
+      background: white;
+      border: 2px solid #fc7341;
+    }
+  }
+  &.btn-success {
+    color: #13ca92;
+    border: 2px solid transparent;
+    &:hover {
+      background: white;
+      border: 2px solid #13ca92;
+    }
+  }
+  &.btn-rounded {
+    border-radius: 50px;
+  }
+  &.btn-outline-danger {
+    border: 2px solid #ff0000;
+    background: white;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background: #ff0000;
+      color: white;
+    }
+  }
+  &.btn-card {
+    background: white;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background: #ff0000;
+      color: white;
+    }
+  }
+}
+
