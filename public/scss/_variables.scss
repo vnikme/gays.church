@@ -1,15 +1,43 @@
-$theme-colors: (
-  primary:         #000637,
-  secondary:       #bbbbf2,
-  success:         #b3f1de,
-  info:            #1998ff,
-  warning:         #ffad00,
-  danger:          #ff0000,
-  light:           #fcd5c7,
-  dark:            #221e1e,
+// Dark Theme Color Palette
+$dark-bg: #0a0e27;
+$dark-bg-secondary: #1a1f3a;
+$dark-border: #2d3561;
+$text-light: #e0e0e0;
+$text-muted: #9ca3af;
+$accent-blue: #3b82f6;
+$accent-cyan: #06b6d4;
+$accent-purple: #8b5cf6;
+$accent-red: #ef4444;
+$accent-green: #10b981;
 
+// Bootstrap override
+$theme-colors: (
+  primary:         $accent-blue,
+  secondary:       $accent-cyan,
+  success:         $accent-green,
+  info:            $accent-cyan,
+  warning:         #f59e0b,
+  danger:          $accent-red,
+  light:           $text-light,
+  dark:            $dark-bg,
 );
 
+// Typography Colors
+$body-bg: $dark-bg;
+$body-color: $text-light;
 
-$text-muted: #6e6e6e;
-$mdi-font-path: "../node_modules/mdi/fonts";
+// Borders
+$border-color: $dark-border;
+
+$mdi-font-path: "../vendors/mdi/fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: $dark-bg;
+  color: $text-light;
+}
