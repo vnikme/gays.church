@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "gayschurch-1024",
     "public": "public",
     "ignore": [
       "firebase.json",
