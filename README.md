@@ -9,6 +9,7 @@ Inspired by [Lesbians and Gays Support the Miners](https://en.wikipedia.org/wiki
 ## Current Project
 
 **Church of the Assumption** - Zakobyakino Village, Russia
+
 - Location: [58.1018446, 40.723713](https://maps.google.com/?q=58.1018446,40.723713)
 - Donation Fund: [gayschurch.eth](https://etherscan.io/name-lookup-search?id=gayschurch.eth)
 
@@ -24,6 +25,7 @@ Inspired by [Lesbians and Gays Support the Miners](https://en.wikipedia.org/wiki
 ## Languages
 
 The website is available in two languages:
+
 - **English**: `index.html` (default)
 - **Russian**: `ru.html`
 
@@ -91,6 +93,7 @@ gays.church/
 ## Design
 
 The website features a modern dark theme with:
+
 - Deep blue/purple gradient backgrounds
 - Responsive grid layouts
 - Smooth animations and transitions
@@ -116,6 +119,7 @@ firebase deploy
 ## Transparency
 
 All donations are publicly visible on the Ethereum blockchain. We maintain complete transparency in:
+
 - Donation collection
 - Fund transfers to churches
 - Project progress reports
